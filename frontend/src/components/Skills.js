@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   SiJavascript, SiReact, SiNodedotjs, SiMongodb, SiExpress, SiHtml5, SiCss3, 
-  SiPython, SiC, SiArduino, SiFirebase, SiAmazonaws, SiGit, SiGithub,
-  SiTailwindcss, SiBootstrap, SiPostman, SiVisualstudiocode
+  SiJava, SiMysql, SiDocker, SiKubernetes, SiJenkins, SiGit, SiGithub,
+  SiTailwindcss, SiBootstrap, SiPostman, SiVisualstudiocode, SiStripe
 } from 'react-icons/si';
-import { FaServer, FaWifi, FaMicrochip } from 'react-icons/fa';
+import { FaServer, FaDatabase, FaCode } from 'react-icons/fa';
 
 const Skills = () => {
   const [activeTab, setActiveTab] = useState('programming');
@@ -13,48 +13,46 @@ const Skills = () => {
   const skillCategories = {
     programming: {
       title: 'Programming Languages',
-      icon: SiJavascript,
+      icon: SiJava,
       skills: [
-        { name: 'JavaScript', icon: SiJavascript, level: 90, color: 'from-yellow-400 to-yellow-600' },
-        { name: 'Python', icon: SiPython, level: 85, color: 'from-blue-400 to-blue-600' },
-        { name: 'C/C++', icon: SiC, level: 80, color: 'from-blue-500 to-blue-700' },
-        { name: 'Embedded C', icon: FaMicrochip, level: 75, color: 'from-green-400 to-green-600' },
+        { name: 'Java', icon: SiJava, level: 90, color: 'from-red-400 to-red-600' },
+        { name: 'JavaScript', icon: SiJavascript, level: 85, color: 'from-yellow-400 to-yellow-600' },
+        { name: 'SQL', icon: SiMysql, level: 88, color: 'from-blue-400 to-blue-600' },
         { name: 'HTML5', icon: SiHtml5, level: 95, color: 'from-orange-400 to-orange-600' },
         { name: 'CSS3', icon: SiCss3, level: 90, color: 'from-blue-400 to-blue-600' },
       ]
     },
     webdev: {
-      title: 'Web Development',
+      title: 'MERN Stack',
       icon: SiReact,
       skills: [
-        { name: 'React', icon: SiReact, level: 90, color: 'from-cyan-400 to-cyan-600' },
-        { name: 'Node.js', icon: SiNodedotjs, level: 85, color: 'from-green-400 to-green-600' },
-        { name: 'Express.js', icon: SiExpress, level: 85, color: 'from-gray-400 to-gray-600' },
-        { name: 'MongoDB', icon: SiMongodb, level: 80, color: 'from-green-500 to-green-700' },
-        { name: 'Tailwind CSS', icon: SiTailwindcss, level: 90, color: 'from-cyan-400 to-cyan-600' },
+        { name: 'React', icon: SiReact, level: 85, color: 'from-cyan-400 to-cyan-600' },
+        { name: 'Node.js', icon: SiNodedotjs, level: 80, color: 'from-green-400 to-green-600' },
+        { name: 'Express.js', icon: SiExpress, level: 80, color: 'from-gray-400 to-gray-600' },
+        { name: 'MongoDB', icon: SiMongodb, level: 82, color: 'from-green-500 to-green-700' },
+        { name: 'Tailwind CSS', icon: SiTailwindcss, level: 88, color: 'from-cyan-400 to-cyan-600' },
         { name: 'Bootstrap', icon: SiBootstrap, level: 85, color: 'from-purple-400 to-purple-600' },
       ]
     },
-    iot: {
-      title: 'IoT & Cloud Tools',
-      icon: SiArduino,
-      skills: [
-        { name: 'Arduino', icon: SiArduino, level: 90, color: 'from-teal-400 to-teal-600' },
-        { name: 'NodeMCU', icon: FaWifi, level: 85, color: 'from-blue-400 to-blue-600' },
-        { name: 'Firebase', icon: SiFirebase, level: 80, color: 'from-yellow-400 to-orange-500' },
-        { name: 'AWS IoT', icon: SiAmazonaws, level: 70, color: 'from-orange-400 to-orange-600' },
-        { name: 'ThingSpeak', icon: FaServer, level: 75, color: 'from-purple-400 to-purple-600' },
-        { name: 'Blynk', icon: FaMicrochip, level: 80, color: 'from-green-400 to-green-600' },
-      ]
-    },
     tools: {
-      title: 'Tools & Others',
+      title: 'Tools & Platforms',
       icon: SiGit,
       skills: [
         { name: 'Git', icon: SiGit, level: 85, color: 'from-orange-400 to-red-500' },
         { name: 'GitHub', icon: SiGithub, level: 90, color: 'from-gray-700 to-gray-900' },
         { name: 'VS Code', icon: SiVisualstudiocode, level: 95, color: 'from-blue-400 to-blue-600' },
         { name: 'Postman', icon: SiPostman, level: 80, color: 'from-orange-400 to-orange-600' },
+        { name: 'Stripe API', icon: SiStripe, level: 75, color: 'from-purple-400 to-purple-600' },
+      ]
+    },
+    devops: {
+      title: 'DevOps (Learning)',
+      icon: SiDocker,
+      skills: [
+        { name: 'Docker', icon: SiDocker, level: 60, color: 'from-blue-400 to-blue-600' },
+        { name: 'Jenkins', icon: SiJenkins, level: 55, color: 'from-blue-600 to-blue-800' },
+        { name: 'Kubernetes', icon: SiKubernetes, level: 50, color: 'from-blue-500 to-blue-700' },
+        { name: 'MySQL', icon: SiMysql, level: 85, color: 'from-blue-400 to-blue-600' },
       ]
     }
   };

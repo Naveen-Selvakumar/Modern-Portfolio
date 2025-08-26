@@ -7,24 +7,24 @@ const Education = () => {
     {
       id: 1,
       degree: 'Master of Computer Applications (MCA)',
-      specialization: 'CoPLO - Cloud-oriented Programming for Learning Organizations',
-      institution: 'Your University Name',
-      location: 'City, State',
-      duration: '2022 - 2024',
-      grade: 'CGPA: 8.5/10',
-      description: 'Specialized in Cloud-oriented Programming with focus on IoT integration, distributed systems, and modern web technologies. Completed advanced coursework in machine learning, cloud computing, and software architecture.',
+      specialization: 'Computer Applications',
+      institution: 'Kongu Engineering College',
+      location: 'Erode, Tamil Nadu',
+      duration: '2024 - 2026',
+      grade: 'CGPA: 8.18 (Current)',
+      description: 'Currently pursuing advanced studies in Computer Applications with focus on software development, database management, and modern web technologies. Gaining expertise in full-stack development and enterprise application design.',
       highlights: [
-        'IoT Systems Design and Implementation',
-        'Cloud Computing and Distributed Systems',
-        'Advanced Web Development (MERN Stack)',
-        'Machine Learning and Data Analytics',
+        'Advanced Java Programming',
+        'Database Management Systems (SQL)',
+        'Web Application Development (MERN Stack)',
         'Software Engineering and Architecture',
-        'Mobile Application Development'
+        'Data Structures and Algorithms',
+        'System Design and Analysis'
       ],
       projects: [
-        'Smart Campus Management System using IoT',
-        'Cloud-based Learning Management Platform',
-        'Real-time Data Analytics Dashboard'
+        'Toy Store - MERN E-commerce Application',
+        'Podcast Website - MERN Platform',
+        'Database Design Projects'
       ],
       icon: HiAcademicCap,
       color: 'from-blue-500 to-purple-600'
@@ -33,11 +33,11 @@ const Education = () => {
       id: 2,
       degree: 'Bachelor of Computer Applications (BCA)',
       specialization: 'Computer Science and Applications',
-      institution: 'Your College Name',
-      location: 'City, State',
-      duration: '2019 - 2022',
-      grade: 'Percentage: 82%',
-      description: 'Comprehensive undergraduate program covering fundamental computer science concepts, programming languages, and software development. Strong foundation in mathematics, algorithms, and database management.',
+      institution: 'Shree Venkateshwara Arts & Science College',
+      location: 'Tamil Nadu',
+      duration: '2021 - 2024',
+      grade: 'Percentage: 76.5%',
+      description: 'Comprehensive undergraduate program covering fundamental computer science concepts, programming languages, and software development. Built strong foundation in programming, databases, and web technologies.',
       highlights: [
         'Programming Fundamentals (C, C++, Java)',
         'Database Management Systems',
@@ -47,37 +47,62 @@ const Education = () => {
         'Operating Systems and System Programming'
       ],
       projects: [
-        'Library Management System (Java)',
-        'E-commerce Website (PHP/MySQL)',
-        'Student Information System'
+        'Database Management Projects',
+        'Web Development Assignments',
+        'Java Programming Applications'
       ],
       icon: HiCode,
       color: 'from-green-500 to-teal-600'
     },
     {
       id: 3,
-      degree: 'Higher Secondary Certificate (12th)',
-      specialization: 'Science Stream (PCM with Computer Science)',
-      institution: 'Your School Name',
-      location: 'City, State',
-      duration: '2017 - 2019',
-      grade: 'Percentage: 88%',
-      description: 'Strong foundation in Physics, Chemistry, Mathematics, and Computer Science. Developed logical thinking and problem-solving skills that form the basis of programming and technical expertise.',
+      degree: 'Higher Secondary Certificate (HSC)',
+      specialization: 'Science Stream',
+      institution: 'S.K.L Public School',
+      location: 'Tamil Nadu',
+      duration: '2021',
+      grade: 'Percentage: 87.8%',
+      description: 'Strong foundation in Science subjects with focus on Mathematics and Computer Science. Developed analytical thinking and problem-solving skills essential for programming and technical studies.',
       highlights: [
         'Mathematics and Applied Mathematics',
-        'Physics and Electronics',
+        'Physics and Chemistry',
         'Computer Science Fundamentals',
-        'Programming Basics (C++)',
-        'Digital Electronics',
-        'Communication Skills'
+        'Programming Basics',
+        'Analytical Thinking',
+        'Problem Solving Skills'
       ],
       projects: [
-        'Basic Calculator using C++',
-        'Simple Database Project',
-        'Physics Laboratory Experiments'
+        'Mathematics Projects',
+        'Science Laboratory Work',
+        'Computer Science Assignments'
       ],
       icon: HiLightningBolt,
       color: 'from-orange-500 to-red-600'
+    },
+    {
+      id: 4,
+      degree: 'Secondary School Leaving Certificate (SSLC)',
+      specialization: 'General Education',
+      institution: 'Vigneshwara Vidyalaya',
+      location: 'Tamil Nadu',
+      duration: '2019',
+      grade: 'Percentage: 79.4%',
+      description: 'Completed foundational education with good academic performance. Built strong fundamentals in core subjects and developed interest in mathematics and science.',
+      highlights: [
+        'Mathematics Fundamentals',
+        'Science Concepts',
+        'Language Skills',
+        'General Knowledge',
+        'Basic Computer Awareness',
+        'Academic Foundation'
+      ],
+      projects: [
+        'School Science Projects',
+        'Mathematics Competitions',
+        'Academic Presentations'
+      ],
+      icon: HiStar,
+      color: 'from-purple-500 to-pink-600'
     }
   ];
 

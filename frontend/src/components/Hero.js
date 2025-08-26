@@ -78,7 +78,7 @@ const Hero = () => {
               <div
                 className="hidden w-full h-full rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 items-center justify-center text-white text-4xl font-bold"
               >
-                YN
+                NS
               </div>
             </div>
           </motion.div>
@@ -95,7 +95,7 @@ const Hero = () => {
             variants={itemVariants}
             className="heading-primary mb-6"
           >
-            <span className="gradient-text">Your Name</span>
+            <span className="gradient-text">Naveen Selvakumar</span>
           </motion.h1>
 
           {/* Tagline */}
@@ -103,7 +103,7 @@ const Hero = () => {
             variants={itemVariants}
             className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-6"
           >
-            PG IoT Fresher | MERN Developer | CoPLO Specialist
+            MCA Student | MERN Full Stack Developer | Java & SQL Specialist
           </motion.h2>
 
           {/* Description */}
@@ -111,9 +111,7 @@ const Hero = () => {
             variants={itemVariants}
             className="text-primary max-w-2xl mx-auto mb-8"
           >
-            Passionate about creating innovative IoT solutions and modern web applications. 
-            Specializing in cloud-integration, microcontrollers, and full-stack development 
-            with cutting-edge technologies.
+            With a strong foundation in web development, Java, and SQL, I enjoy building scalable applications that combine clean design with efficient backend systems. My goal is to continuously improve my problem-solving skills while contributing to real-world projects.
           </motion.p>
 
           {/* CTA Buttons */}

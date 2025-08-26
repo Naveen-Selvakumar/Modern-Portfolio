@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaHeart, FaArrowUp } from 'react-icons
 import { HiMail, HiPhone } from 'react-icons/hi';
 import { 
   SiReact, SiNodedotjs, SiMongodb, SiExpress, SiTailwindcss, 
-  SiFramer, SiArduino, SiFirebase 
+  SiFramer, SiJava, SiMysql 
 } from 'react-icons/si';
 
 const Footer = () => {
@@ -22,19 +22,19 @@ const Footer = () => {
   const socialLinks = [
     { 
       icon: FaGithub, 
-      href: 'https://github.com/yourusername', 
+      href: 'https://github.com/Naveen-Selvakumar', 
       label: 'GitHub',
       color: 'hover:text-gray-900'
     },
     { 
       icon: FaLinkedin, 
-      href: 'https://linkedin.com/in/yourusername', 
+      href: 'https://linkedin.com/in/naveen-selvakumar', 
       label: 'LinkedIn',
       color: 'hover:text-blue-600'
     },
     { 
       icon: FaTwitter, 
-      href: 'https://twitter.com/yourusername', 
+      href: 'https://twitter.com/naveen_selvakumar', 
       label: 'Twitter',
       color: 'hover:text-blue-400'
     },
@@ -47,8 +47,8 @@ const Footer = () => {
     { icon: SiMongodb, name: 'MongoDB', color: 'text-green-600' },
     { icon: SiTailwindcss, name: 'Tailwind', color: 'text-cyan-400' },
     { icon: SiFramer, name: 'Framer Motion', color: 'text-pink-500' },
-    { icon: SiArduino, name: 'Arduino', color: 'text-teal-500' },
-    { icon: SiFirebase, name: 'Firebase', color: 'text-yellow-500' },
+    { icon: SiJava, name: 'Java', color: 'text-red-500' },
+    { icon: SiMysql, name: 'MySQL', color: 'text-blue-500' },
   ];
 
   const scrollToTop = () => {
@@ -80,31 +80,30 @@ const Footer = () => {
             >
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">IoT</span>
+                  <span className="text-white font-bold text-lg">NS</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold">Your Name</h3>
-                  <p className="text-gray-400 text-sm">IoT Developer & MERN Specialist</p>
+                  <h3 className="text-xl font-bold">Naveen Selvakumar</h3>
+                  <p className="text-gray-400 text-sm">MERN Developer & Java Specialist</p>
                 </div>
               </div>
               
               <p className="text-gray-300 mb-6 leading-relaxed max-w-md">
-                Passionate about creating innovative IoT solutions and modern web applications. 
-                Specializing in cloud-integration, microcontrollers, and full-stack development.
+                With a strong foundation in web development, Java, and SQL, I enjoy building scalable applications that combine clean design with efficient backend systems.
               </p>
 
               {/* Contact Info */}
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 text-gray-300">
                   <HiMail className="text-primary-400" size={18} />
-                  <a href="mailto:your.email@example.com" className="hover:text-primary-400 transition-colors">
-                    your.email@example.com
+                  <a href="mailto:nveen3484@gmail.com" className="hover:text-primary-400 transition-colors">
+                    nveen3484@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-300">
                   <HiPhone className="text-primary-400" size={18} />
-                  <a href="tel:+919876543210" className="hover:text-primary-400 transition-colors">
-                    +91 98765 43210
+                  <a href="tel:+917603819036" className="hover:text-primary-400 transition-colors">
+                    +91 76038 19036
                   </a>
                 </div>
               </div>

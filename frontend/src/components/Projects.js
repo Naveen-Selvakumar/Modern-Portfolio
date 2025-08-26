@@ -10,118 +10,87 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'IoT Home Automation System',
-      category: 'iot',
-      description: 'Smart home automation using NodeMCU and Firebase for real-time control of lights, fans, and security systems.',
-      longDescription: 'A comprehensive home automation system that allows users to control various home appliances remotely through a web interface and mobile app. Features include real-time sensor monitoring, automated scheduling, voice control integration, and energy consumption tracking.',
-      technologies: ['NodeMCU', 'Firebase', 'React', 'Arduino IDE', 'Blynk'],
-      image: '/projects/home-automation.jpg',
-      github: 'https://github.com/yourusername/iot-home-automation',
-      demo: 'https://your-demo-link.com',
+      title: 'Toy Store - MERN Full Stack Application',
+      category: 'web',
+      description: 'Developed an e-commerce toy store with user authentication, product management, and Stripe payment integration.',
+      longDescription: 'A comprehensive e-commerce platform built with the MERN stack that provides a complete online shopping experience for toys. Features include user authentication, product catalog management, shopping cart, payment processing with Stripe, and an admin dashboard for inventory management.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe API', 'JWT'],
+      image: '/projects/toy-store.jpg',
+      github: 'https://github.com/Naveen-Selvakumar/toy-store',
+      demo: 'https://toy-store-demo.com',
       features: [
-        'Remote control of appliances',
-        'Real-time sensor monitoring',
-        'Energy consumption tracking',
-        'Voice control integration',
-        'Automated scheduling'
+        'User authentication and authorization',
+        'Product filtering and sorting',
+        'Category-based browsing',
+        'Stripe payment integration',
+        'Shopping cart functionality',
+        'Admin dashboard for product management'
       ]
     },
     {
       id: 2,
-      title: 'Real-Time Sensor Dashboard',
+      title: 'Podcast Website - MERN Application',
       category: 'web',
-      description: 'MERN stack application for monitoring multiple IoT sensors with real-time data visualization and alerts.',
-      longDescription: 'A full-stack web application built with the MERN stack that provides a comprehensive dashboard for monitoring various IoT sensors. The system includes real-time data visualization, alert mechanisms, historical data analysis, and user management.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.io', 'Chart.js'],
-      image: '/projects/sensor-dashboard.jpg',
-      github: 'https://github.com/yourusername/sensor-dashboard',
-      demo: 'https://your-demo-link.com',
+      description: 'Built a podcast platform with user authentication, media uploads, and streaming support.',
+      longDescription: 'A full-featured podcast platform that allows content creators to upload, manage, and distribute their podcasts while providing listeners with a seamless streaming experience. The platform includes user profiles, episode management, and interactive features.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Multer', 'CloudStorage'],
+      image: '/projects/podcast-website.jpg',
+      github: 'https://github.com/Naveen-Selvakumar/podcast-website',
+      demo: 'https://podcast-platform-demo.com',
       features: [
-        'Real-time data visualization',
-        'Alert system for threshold breaches',
-        'Historical data analysis',
-        'Multi-user support',
-        'Export data functionality'
+        'User authentication system',
+        'Podcast upload and management',
+        'Audio streaming capabilities',
+        'Episode categorization',
+        'User profiles and preferences',
+        'Responsive design for all devices'
       ]
     },
     {
       id: 3,
-      title: 'Smart Health Monitoring',
-      category: 'iot',
-      description: 'IoT-based health monitoring system using Arduino sensors to track vital signs and send alerts.',
-      longDescription: 'An innovative health monitoring system that uses various sensors to track vital signs like heart rate, body temperature, and blood oxygen levels. The system sends real-time data to a cloud platform and triggers alerts for emergency situations.',
-      technologies: ['Arduino', 'ESP32', 'ThingSpeak', 'React Native', 'Firebase'],
-      image: '/projects/health-monitor.jpg',
-      github: 'https://github.com/yourusername/health-monitor',
-      demo: 'https://your-demo-link.com',
+      title: 'Database Management Projects',
+      category: 'database',
+      description: 'Various SQL-based projects demonstrating database design, optimization, and management skills.',
+      longDescription: 'A collection of database projects showcasing advanced SQL skills, database design principles, and optimization techniques. These projects demonstrate proficiency in creating efficient database schemas, writing complex queries, and implementing data management solutions.',
+      technologies: ['MySQL', 'SQL Server', 'Database Design', 'Query Optimization', 'Stored Procedures'],
+      image: '/projects/database-projects.jpg',
+      github: 'https://github.com/Naveen-Selvakumar/database-projects',
+      demo: 'https://database-demo.com',
       features: [
-        'Multi-parameter monitoring',
-        'Emergency alert system',
-        'Mobile app integration',
-        'Cloud data storage',
-        'Historical health trends'
+        'Complex SQL query writing',
+        'Database schema design',
+        'Data normalization and optimization',
+        'Stored procedures and functions',
+        'Data analysis and reporting',
+        'Performance optimization'
       ]
     },
     {
       id: 4,
-      title: 'Weather Station Network',
-      category: 'iot',
-      description: 'Distributed weather monitoring network with multiple sensor nodes and centralized data collection.',
-      longDescription: 'A sophisticated weather monitoring network consisting of multiple sensor nodes deployed across different locations. Each node collects environmental data and transmits it to a central server for analysis and visualization.',
-      technologies: ['ESP8266', 'LoRa', 'Python', 'Django', 'PostgreSQL', 'D3.js'],
-      image: '/projects/weather-station.jpg',
-      github: 'https://github.com/yourusername/weather-network',
-      demo: 'https://your-demo-link.com',
+      title: 'Java Programming Applications',
+      category: 'java',
+      description: 'Collection of Java applications demonstrating object-oriented programming and software development skills.',
+      longDescription: 'A comprehensive portfolio of Java applications that showcase proficiency in object-oriented programming, data structures, algorithms, and software design patterns. These projects demonstrate strong foundation in Java development.',
+      technologies: ['Java', 'Java Swing', 'JDBC', 'Object-Oriented Programming', 'Design Patterns'],
+      image: '/projects/java-applications.jpg',
+      github: 'https://github.com/Naveen-Selvakumar/java-projects',
+      demo: 'https://java-projects-demo.com',
       features: [
-        'Multi-location monitoring',
-        'Long-range communication',
-        'Weather prediction algorithms',
-        'Interactive data visualization',
-        'API for third-party integration'
-      ]
-    },
-    {
-      id: 5,
-      title: 'E-Learning Platform',
-      category: 'web',
-      description: 'Modern e-learning platform with course management, video streaming, and progress tracking.',
-      longDescription: 'A comprehensive e-learning platform designed for modern online education. Features include course creation tools, video streaming capabilities, interactive quizzes, progress tracking, and certification management.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'AWS S3', 'Socket.io', 'JWT'],
-      image: '/projects/elearning.jpg',
-      github: 'https://github.com/yourusername/elearning-platform',
-      demo: 'https://your-demo-link.com',
-      features: [
-        'Course management system',
-        'Video streaming and playback',
-        'Interactive assessments',
-        'Progress tracking',
-        'Certificate generation'
-      ]
-    },
-    {
-      id: 6,
-      title: 'Smart Agriculture System',
-      category: 'iot',
-      description: 'IoT solution for precision agriculture with soil monitoring, automated irrigation, and crop analytics.',
-      longDescription: 'An intelligent agriculture system that leverages IoT sensors to monitor soil conditions, weather parameters, and crop health. The system provides automated irrigation control and data-driven insights for optimal crop management.',
-      technologies: ['Arduino', 'LoRaWAN', 'React', 'Flask', 'MySQL', 'TensorFlow'],
-      image: '/projects/smart-agriculture.jpg',
-      github: 'https://github.com/yourusername/smart-agriculture',
-      demo: 'https://your-demo-link.com',
-      features: [
-        'Soil parameter monitoring',
-        'Automated irrigation control',
-        'Crop health analytics',
-        'Weather integration',
-        'ML-based recommendations'
+        'Object-oriented design implementation',
+        'GUI applications with Java Swing',
+        'Database connectivity with JDBC',
+        'Implementation of design patterns',
+        'Data structure algorithms',
+        'Exception handling and validation'
       ]
     }
   ];
 
   const categories = [
     { id: 'all', name: 'All Projects', icon: HiGlobe },
-    { id: 'iot', name: 'IoT Projects', icon: HiChip },
     { id: 'web', name: 'Web Apps', icon: HiCode },
+    { id: 'database', name: 'Database', icon: HiPlay },
+    { id: 'java', name: 'Java Apps', icon: HiChip },
   ];
 
   const filteredProjects = filter === 'all' 

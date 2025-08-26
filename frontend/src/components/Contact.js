@@ -18,21 +18,21 @@ const Contact = () => {
     {
       icon: HiMail,
       title: 'Email',
-      detail: 'your.email@example.com',
-      link: 'mailto:your.email@example.com',
+      detail: 'nveen3484@gmail.com',
+      link: 'mailto:nveen3484@gmail.com',
       color: 'from-blue-500 to-blue-600'
     },
     {
       icon: HiPhone,
       title: 'Phone',
-      detail: '+91 98765 43210',
-      link: 'tel:+919876543210',
+      detail: '+91 76038 19036',
+      link: 'tel:+917603819036',
       color: 'from-green-500 to-green-600'
     },
     {
       icon: HiLocationMarker,
       title: 'Location',
-      detail: 'City, State, India',
+      detail: 'Tiruppur, Tamil Nadu, India',
       link: '#',
       color: 'from-red-500 to-red-600'
     }
@@ -42,25 +42,25 @@ const Contact = () => {
     {
       icon: FaGithub,
       name: 'GitHub',
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Naveen-Selvakumar',
       color: 'hover:text-gray-900'
     },
     {
       icon: FaLinkedin,
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://linkedin.com/in/naveen-selvakumar',
       color: 'hover:text-blue-600'
     },
     {
       icon: FaTwitter,
       name: 'Twitter',
-      url: 'https://twitter.com/yourusername',
+      url: 'https://twitter.com/naveen_selvakumar',
       color: 'hover:text-blue-400'
     },
     {
       icon: FaInstagram,
       name: 'Instagram',
-      url: 'https://instagram.com/yourusername',
+      url: 'https://instagram.com/naveen_selvakumar',
       color: 'hover:text-pink-600'
     }
   ];

@@ -11,18 +11,18 @@ const About = () => {
     },
     {
       icon: HiChip,
-      title: 'IoT Solutions',
-      description: 'Arduino, NodeMCU, and sensor integration projects',
+      title: 'Java Development',
+      description: 'Strong foundation in Java programming and SQL databases',
     },
     {
       icon: HiCloud,
-      title: 'Cloud Integration',
-      description: 'Firebase, AWS, and real-time data management',
+      title: 'E-commerce Solutions',
+      description: 'Building scalable applications with payment integration',
     },
     {
       icon: HiLightningBolt,
-      title: 'Innovation Focus',
-      description: 'Combining IoT with modern web technologies',
+      title: 'Problem Solving',
+      description: 'Continuous improvement and real-world project focus',
     },
   ];
 
@@ -61,8 +61,7 @@ const About = () => {
           <motion.div variants={itemVariants} className="text-center mb-16">
             <h2 className="heading-secondary mb-4">About Me</h2>
             <p className="text-primary max-w-2xl mx-auto">
-              Passionate about bridging the gap between physical and digital worlds
-              through innovative IoT solutions and modern web technologies.
+              With a strong foundation in web development, Java, and SQL, I enjoy building scalable applications that combine clean design with efficient backend systems.
             </p>
           </motion.div>
 
@@ -71,43 +70,42 @@ const About = () => {
             <motion.div variants={itemVariants} className="space-y-6">
               <div>
                 <h3 className="heading-tertiary mb-4">
-                  PG IoT Specialist & MERN Developer
+                  MCA Student & MERN Full Stack Developer
                 </h3>
                 <p className="text-primary mb-4">
-                  I'm a recent postgraduate with a Master's degree in Computer Applications (MCA) 
-                  specializing in CoPLO (Cloud-oriented Programming for Learning Organizations). 
-                  My passion lies in creating innovative IoT solutions that seamlessly integrate 
-                  with cloud platforms and modern web applications.
+                  I'm currently pursuing my Master's in Computer Applications (MCA) at Kongu Engineering College 
+                  with a current CGPA of 8.18. My passion lies in creating innovative web applications 
+                  that seamlessly integrate frontend and backend technologies.
                 </p>
                 <p className="text-primary mb-4">
-                  My expertise spans across embedded systems, microcontroller programming, 
-                  and full-stack web development. I love working with Arduino, NodeMCU, 
-                  and various sensors to create smart solutions that solve real-world problems.
+                  My expertise spans across Java programming, SQL database management, 
+                  and full-stack web development using the MERN stack. I love working on 
+                  e-commerce platforms, building features like payment integration and user management.
                 </p>
                 <p className="text-primary">
-                  When I'm not coding, you'll find me exploring the latest IoT trends, 
-                  experimenting with new sensors, or contributing to open-source projects 
-                  that make technology more accessible to everyone.
+                  My goal is to continuously improve my problem-solving skills while contributing 
+                  to real-world projects that make a meaningful impact. I'm always eager to learn 
+                  new technologies and take on challenging development tasks.
                 </p>
               </div>
 
               {/* Stats */}
               <div className="grid grid-cols-2 gap-6 pt-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600">15+</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">IoT Projects</div>
+                  <div className="text-3xl font-bold text-primary-600">2+</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">MERN Projects</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600">8+</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">Web Applications</div>
+                  <div className="text-3xl font-bold text-primary-600">8.18</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">Current CGPA</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600">5+</div>
+                  <div className="text-3xl font-bold text-primary-600">3+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Certifications</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600">2+</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">Years Learning</div>
+                  <div className="text-3xl font-bold text-primary-600">2026</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">MCA Graduation</div>
                 </div>
               </div>
             </motion.div>
